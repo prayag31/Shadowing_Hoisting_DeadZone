@@ -10,7 +10,7 @@ This differs from var variables, which will return a value of undefined if they 
 The variable is said to be in a "temporal dead zone" (TDZ) from the start of the block until the initialization has completed.
 
 
- **For example : **
+ **For example :** 
 ```
 { // TDZ starts at beginning of scope
     console.log(bar); // undefined
