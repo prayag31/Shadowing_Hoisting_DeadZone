@@ -23,7 +23,8 @@ displayDouble();
 >In this first example, each variable is distinctly named and we can see that variable points initialised before defining the function in the outer scope and is accessible in the inner scope of function .displayDouble() 
 
 **Example 2 :** 
-```let number = 10;
+```
+let number = 10;
 
 function displayDouble() {
   //a new variable is defined with the same name as variable on line 26 - outer scope
@@ -38,5 +39,5 @@ displayDouble();
 console.log(number); //=> 10
 ```
 
->we saw that variable shadowing can occur in methods or functions —such as .displayDouble() where the global variable number on line 26 is shadowed by the inner variable of the same name on line 30.
+>we saw that variable shadowing can occur in methods or functions —such as .displayDouble() where the global variable 'number' is shadowed by the inner variable of the same name inside the block of function displayDouble().
 
