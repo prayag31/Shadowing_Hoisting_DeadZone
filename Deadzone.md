@@ -1,7 +1,7 @@
  # Temporal dead zone (TDZ)    
 
 
-Let variables cannot be read/written until they have been fully initialized, which happens when they are declared (if no initial value is specified on declaration, the variable is initialized with a value of `undefined`). 
+Let variables cannot be read/written until they have been fully initialized, which happens when they are declared (if no initial value is specified on declaration, the variable is initialized with a value of `undefined`. 
 
 Accessing the variable before the initialization results in a `ReferenceError`. 
 
